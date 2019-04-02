@@ -1,0 +1,22 @@
+{
+  "name": "MyFramework",
+  "version": "0.1.0",
+  "summary": "This is first my lib, it has main function is add two numbers",
+  "description": "This is first my lib, it has main function is add two numbers, I am trying this one before apply to my list of libs",
+  "homepage": "https://github.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hungnv038": "hungnv038@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/hungnv038/MyFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.1"
+  },
+  "source_files": "MyFramework/Classes/**/*"
+}

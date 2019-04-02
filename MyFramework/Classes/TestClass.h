@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TestClass : NSObject
 
+-(int)add:(int)first and:(int)second;
 @end
 
 NS_ASSUME_NONNULL_END

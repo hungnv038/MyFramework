@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MyFramework'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MyFramework.'
+  s.summary          = 'This is first my lib, it has main function is add two numbers'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,18 +17,16 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "This is first my lib, it has main function is add two numbers, I am trying this one before apply to my list of libs"
 
-  s.homepage         = 'https://github.com/hungnv038/MyFramework'
+    s.homepage         = 'https://github.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hungnv038' => 'hungnv038@gmail.com' }
   s.source           = { :git => 'https://github.com/hungnv038/MyFramework.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.1'
 
   s.source_files = 'MyFramework/Classes/**/*'
   
